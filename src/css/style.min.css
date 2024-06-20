@@ -1,0 +1,14 @@
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+.container {
+  min-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background-image: url("/src/img/bg.jpg");
+}/*# sourceMappingURL=style.min.css.map */
