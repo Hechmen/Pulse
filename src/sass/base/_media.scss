@@ -148,19 +148,20 @@
             align-items: center;
         }
         &__item {
-            font-size: 14px;
+            font-size: 18px;
             margin-top: 40px;
             width: 100%;
             img {
                 width: 70px;
                 height: 70px;
+                margin-bottom: 20px;
             }
             span {
-                font-size: 14px;
+                font-size: 18px;
             }
         }
         .item_header {
-            font-size: 16px;
+            font-size: 20px;
             margin-bottom: 10px;
         }
     }
