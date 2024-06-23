@@ -65,10 +65,6 @@
     .advantages {
         padding: 55px 0 50px 0;
         min-height: 400px;
-        &__header {
-            font-size: 26px;
-            margin-bottom: 25px;
-        }
         &__item {
             font-size: 13px;
             img {
@@ -83,6 +79,10 @@
             font-size: 16px;
             margin-bottom: 12px;
         }
+    }
+    .title {
+        font-size: 26px;
+        margin-bottom: 25px;
     }
 }
 
@@ -139,9 +139,6 @@
     .advantages {
         padding: 40px 0 40px 0;
         min-height: 300px;
-        &__header {
-            font-size: 28px;
-        }
         &__items {
             flex-direction: column;
             justify-content: flex-start;
@@ -164,5 +161,8 @@
             font-size: 20px;
             margin-bottom: 10px;
         }
+    }
+    .title {
+        font-size: 28px;
     }
 }
