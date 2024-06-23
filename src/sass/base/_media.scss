@@ -83,6 +83,26 @@
     .title {
         font-size: 26px;
         margin-bottom: 25px;
+        &_left {
+            margin-bottom: 15px;
+        }
+    }
+
+    .consultation {
+        &__descr {
+            font-size: 18px;
+        }
+    }
+
+    .feed-form {
+        width: 275px;
+        input {
+            height: 45px;
+        }
+        .button_submit {
+            height: 45px;
+            font-size: 16px;
+        }
     }
 }
 
@@ -133,6 +153,9 @@
             width: 200px;
             height: 40px;
             font-size: 13px;
+        }
+        &_submit {
+            width: 100%;
         }
     }
 
