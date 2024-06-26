@@ -188,4 +188,10 @@
     .title {
         font-size: 28px;
     }
+
+    .carousel {
+        &__inner {
+            margin: 0 37px;
+        }
+    }
 }

@@ -1,9 +1,5 @@
 .carousel {
     padding: 81px 0;
-    // &__inner {
-    //     width: 750px;
-    //     margin: 0 auto;
-    // }
     .container {
         display: flex;
         align-items: center;
@@ -16,8 +12,6 @@
         line-height: 50px;
         color: $main-color;
         cursor: pointer;
-        //position: absolute;
-        //z-index: 2;
     }
 
     &__inner {
@@ -27,9 +21,7 @@
         white-space: nowrap;
         scroll-behavior: smooth;
         margin: 0 60px;
-        //z-index: 1;
         img {
-            //height: 560px;
             object-fit: cover;
             width: 100%;
             margin-left: 15px;
