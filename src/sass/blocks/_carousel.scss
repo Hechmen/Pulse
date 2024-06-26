@@ -1,0 +1,33 @@
+.carousel {
+    padding: 81px 0;
+    // &__inner {
+    //     width: 750px;
+    //     margin: 0 auto;
+    // }
+    i {
+        height: 50px;
+        width: 30px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 50px;
+        color: $main-color;
+        cursor: pointer;
+    }
+
+    &__inner {
+        font-size: 0;
+        cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        img {
+            height: 560px;
+            object-fit: cover;
+            width: 100%;
+            margin-left: 15px;
+        }
+        img:first-child {
+            margin-left: 0;
+        }
+    }
+}
