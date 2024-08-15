@@ -104,6 +104,22 @@
             font-size: 16px;
         }
     }
+
+    .review {
+        h2 {
+            font-size: 26px;
+        }
+        &__photo {
+            width: 150px;
+            height: 150px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
 }
 
 @media (max-width: 576px){
@@ -192,6 +208,27 @@
     .carousel {
         &__inner {
             margin: 0 37px;
+        }
+    }
+
+    .catalog {
+        padding-bottom: 50px;
+        &__tab {
+            font-size: 15px;
+        }
+    }
+
+    .review {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__photo {
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        &__wrapper {
+            text-align: center;
         }
     }
 }
