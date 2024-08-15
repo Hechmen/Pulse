@@ -12,6 +12,12 @@
         line-height: 50px;
         color: $main-color;
         cursor: pointer;
+        &:hover {
+            color: rgb(150, 0, 0);
+        }
+        &:active {
+            color: #600000;
+        }
     }
 
     &__inner {

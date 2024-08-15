@@ -120,6 +120,10 @@
             font-size: 14px;
         }
     }
+
+    .footer {
+        height: 580px;
+    }
 }
 
 @media (max-width: 576px){
@@ -229,6 +233,29 @@
         }
         &__wrapper {
             text-align: center;
+        }
+    }
+
+    .footer {
+        height: 450px;
+        &__info {
+            width: 350px;
+            height: 200px;
+        }
+        &__addr {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        &__social-item {
+            width: 35px;
+            height: 35px;
+            img{
+                height: 17px;
+            }
         }
     }
 }
