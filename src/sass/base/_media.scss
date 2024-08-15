@@ -103,6 +103,10 @@
             height: 45px;
             font-size: 16px;
         }
+        &_mt25 {
+            margin-top: 25px;
+            width: 100%;
+        }
     }
 
     .review {
@@ -176,6 +180,10 @@
         }
         &_submit {
             width: 100%;
+        }
+        &_mini {
+            height: 35px;
+            font-size: 14px;
         }
     }
 
