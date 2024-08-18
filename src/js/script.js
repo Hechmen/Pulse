@@ -60,3 +60,29 @@ $('.button_mini').each(function(i) {
         $('.overlay, #order').fadeIn('fast');
     });
 });
+
+//Validation
+function validateForms(form) {
+    $(form).validate({
+        rules: {
+            name: "required",
+            phone: "required",
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            name: "Пожалуйста, укажите своё имя",
+            phone: "Пожалуйста, введите свой номер телефона",
+            email: {
+                required: "Пожалуйста, введите свою почту",
+                email: "Неправильно введён адрес почты"
+            }
+        }
+    });
+}
+
+validateForms('#consultation-form');
+validateForms('#consultation form');
+validateForms('#order form');
