@@ -1,0 +1,42 @@
+.carousel {
+    padding: 81px 0;
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    i {
+        height: 50px;
+        width: 30px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 50px;
+        color: $main-color;
+        cursor: pointer;
+        &:hover {
+            color: $hover-color;
+        }
+        &:active {
+            color: $active-color;
+        }
+    }
+
+    &__inner {
+        font-size: 0;
+        cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        margin: 0 60px;
+        img {
+            object-fit: cover;
+            width: 100%;
+            margin-left: 15px;
+            max-width: 100%; // Ensure the image does not exceed the container's width
+            max-height: 100%; // Ensure the image does not exceed the container's height
+            display: inline-block;
+        }
+        img:first-child {
+            margin-left: 0;
+        }
+    }
+}
