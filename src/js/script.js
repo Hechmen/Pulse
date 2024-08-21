@@ -90,7 +90,7 @@ validateForms('#order form');
 //Phone format
 $('input[name=phone]').mask("+7 (999) 999-9999")
 
-$('form').submit(function() {
+$('form').submit(function(e) {
     e.preventDefault();
 
     if (!$(this).valid()) {
@@ -103,8 +103,8 @@ $('form').submit(function() {
         data: $(this).serialize()
     }).done(function() {
         $(this).find("input").val("");
-
-
+        $('#consultation, #order').fadeOut();
+        $('.overlay, #thanks').fadeIn('fast');
         $('form').trigger('reset'); 
     });
     return false;
