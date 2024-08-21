@@ -109,3 +109,13 @@ $('form').submit(function(e) {
     });
     return false;
 });
+
+//Smmoth scroll and pageUp
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1600) {
+        $('.pageup').fadeIn();
+    } else {
+        $('.pageup').fadeOut();
+    }
+});
