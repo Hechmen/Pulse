@@ -110,8 +110,7 @@ $('form').submit(function(e) {
     return false;
 });
 
-//Smmoth scroll and pageUp
-
+//PageUp button
 $(window).scroll(function() {
     if ($(this).scrollTop() > 1600) {
         $('.pageup').fadeIn();
@@ -119,3 +118,6 @@ $(window).scroll(function() {
         $('.pageup').fadeOut();
     }
 });
+
+//WOW.js for activating animations of the reviews
+new WOW().init();
